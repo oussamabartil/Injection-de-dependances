@@ -10,4 +10,8 @@ public class MetierImpl implements IMetier{
     public double calcul() {
         return 0;
     }
+
+    public void setDao(IDao dao) {
+        this.dao = dao;
+    }
 }
